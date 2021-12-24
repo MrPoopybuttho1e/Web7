@@ -9,25 +9,37 @@
         width:300;
         height: 200;
     }
+    .ant-carousel-element {
+    width: 300px;
+    text-align: center;
+    }
 }
 
 @media screen and (min-width: 641px) and (max-width: 910px) {
     .ant-carousel {
-        max-width: 400px;
+        max-width: 900px;
         
     }
     img{
-        width:100;
-        height:75;
+        width:225;
+        height:150;
+    }
+    .ant-carousel-element {
+    width: 225px;
+    text-align: center;
     }
 }
 @media screen and (max-width: 640px) {
     .ant-carousel {
-        max-width: 200px;
+        max-width: 640px;
     }
      img{
-        width:50;
-        height:40;
+        width:160;
+        height:55;
+    }
+    .ant-carousel-element {
+    width: 160px;
+    text-align: center;
     }
 }
 .ant-carousel {
@@ -36,10 +48,8 @@
     border: 6px solid #157347;
     background-color: #157347;
 }
-.ant-carousel-element {
-    width: 300px;
-    text-align: center;
-}
+
+
 .ant-carousel {
     width: auto;
     position: relative;
