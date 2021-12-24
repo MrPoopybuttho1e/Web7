@@ -8,11 +8,20 @@
 @media screen and (min-width: 641px) and (max-width: 910px) {
     .ant-carousel {
         max-width: 400px;
+        
+    }
+    img{
+        width:100;
+        height:75;
     }
 }
 @media screen and (max-width: 640px) {
     .ant-carousel {
         max-width: 200px;
+    }
+     img{
+        width:50;
+        height:40;
     }
 }
 .ant-carousel {
