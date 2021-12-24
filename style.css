@@ -17,20 +17,6 @@
 
 @media screen and (min-width: 641px) and (max-width: 910px) {
     .ant-carousel {
-        max-width: 900px;
-        
-    }
-    img{
-        width:225;
-        height:150;
-    }
-    .ant-carousel-element {
-    width: 225px;
-    text-align: center;
-    }
-}
-@media screen and (max-width: 640px) {
-    .ant-carousel {
         max-width: 640px;
     }
      img{
@@ -42,6 +28,20 @@
     text-align: center;
     }
 }
+@media screen and (max-width: 640px) {
+    .ant-carousel {
+        max-width: 500px;
+    }
+     img{
+        width:125;
+        height:80;
+    }
+    .ant-carousel-element {
+    width: 125px;
+    text-align: center;
+    }
+}
+
 .ant-carousel {
     margin: 60px auto auto;
     padding-top: 6px;
